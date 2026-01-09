@@ -1,0 +1,23 @@
+{
+  "experiment": "exp1_scratch_vgg16",
+  "dataset": "ICDAR2015",
+  "training": {
+    "epoch": 20,
+    "geo_loss": 0.8411028361320496,
+    "cls_loss": 0.9758740890026093
+  },
+  "model": {
+    "params_million": 15.089318,
+    "gflops": 81.413537792
+  },
+  "inference": {
+    "time_ms": 28.3660888671875,
+    "fps": 35.25336202259279,
+    "gpu_mem_gb": 1.398122787475586
+  },
+  "icdar": {
+    "precision": 0.024202510804692323,
+    "recall": 0.2831006259027443,
+    "f_measure": 0.04459274988624298
+  }
+}

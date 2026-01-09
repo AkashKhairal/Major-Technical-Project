@@ -1,0 +1,67 @@
+# =========================
+# Python / Bytecode
+# =========================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# =========================
+# Virtual Environments
+# =========================
+.venv/
+venv/
+env/
+
+# =========================
+# VS Code / Editor
+# =========================
+.vscode/
+.vscode-server/
+.vscode-remote-containers/
+
+# =========================
+# Datasets (DO NOT COMMIT)
+# =========================
+data/
+data/**
+
+
+# =========================
+# Model Weights & Checkpoints
+# =========================
+weights/
+*.pt
+*.pth
+*.ckpt
+
+# =========================
+# Training / Inference Outputs
+# =========================
+results/
+results/**
+predictions/
+predictions/**
+
+# =========================
+# Logs & Experiment Artifacts
+# =========================
+logs/
+*.log
+
+# =========================
+# OS / Misc
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Jupyter
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# Temporary / Backup files
+# =========================
+*~
+*.swp

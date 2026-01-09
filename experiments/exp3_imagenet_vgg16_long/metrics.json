@@ -1,0 +1,23 @@
+{
+  "experiment": "exp3_imagenet_vgg16_long",
+  "dataset": "ICDAR2015",
+  "training": {
+    "epoch": 60,
+    "geo_loss": 0.44354226112365724,
+    "cls_loss": 0.41194896459579466
+  },
+  "model": {
+    "params_million": 15.089318,
+    "gflops": 81.413537792
+  },
+  "inference": {
+    "time_ms": 28.279781341552734,
+    "fps": 35.360952332776904,
+    "gpu_mem_gb": 1.3975849151611328
+  },
+  "icdar": {
+    "precision": 0.7580381471389646,
+    "recall": 0.6697159364467983,
+    "f_measure": 0.7111451942740286
+  }
+}
